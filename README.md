@@ -2,7 +2,7 @@
 
 This repository contains algorithms for digger agents and cellular automata which create dungeons and caves. The algorithms included are presented in detail in the Constructive Generation Methods for Dungeons and Levels chapter of the <A href="http://pcgbook.com/">PCG book</A>.
 
-All the included .pde files can be run as-is. In order to open and compile the algorithms, Processing 1.5.1 must be installed; while the programs <b>may</b> run with Processing 2.2.1, it will not run with Processing 3.3 unless modifications are made (I will probably add Processing 3 versions within the year). Processing is built on Java and should be straightforward for any user with knowlede of object oriented programming. Some important variables in the code will also be highlighted below.
+All the included .pde files can be run as-is. In order to open and compile the algorithms, <b>Processing 1.5.1</b> (scroll through <a href="https://processing.org/download/">processsing.org</a>) must be 'installed'; while the programs <b>may</b> run with Processing 2.2.1, it will not run with Processing 3.3 unless modifications are made (I will probably add Processing 3 versions within the year). Processing is built on Java and should be straightforward for any user with knowlede of object oriented programming. Some important variables in the code will also be highlighted below.
 
 # General parameters
 
