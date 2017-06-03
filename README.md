@@ -33,3 +33,7 @@ Cellular automata start from a random binary map and recolor each tile based on 
 <img width = 400 height = 400 src="/images/cellular.png"/>
 
 The cellular automata are found in <b><i>CellularAutomata_caves</i></b>. Apart from the general variables described above, the only variable that can be changed is <b>mooreNeighborhood</b> boolean flag, which if true uses the Moore neighborhood and if false uses the von Neumann neighborhood for determining how each tile changes. For the purposes of demonstrating how cellular automata work, it is recommended to set <b>drawStepWise</b> to true, and also to reset the map using the <b>R</b> key.
+
+# NOTE
+
+The code above is aimed to act as a tutorial for simple constructive methods for creating (simple) dungeons and caves. Many quick and easy fixes could be applied to the algorithms to improve the generated outcomes. Simplicity and readability was prioritized here as the code is provided as a backdrop of an educational curriculum using the PCG book. I would heartily recommend digging deeper into the code and editing it to improve e.g. how steps are counted in the digger agent for the purposes of changing direction, or to remove disconnected smaller caves in the cellular automata.
