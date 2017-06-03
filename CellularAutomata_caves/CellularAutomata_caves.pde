@@ -8,7 +8,7 @@ static final int zoominFactor = 13;
 
 static int prntscr_count = 0;
 
-static boolean mooreNeighborhood = false;
+static boolean mooreNeighborhood = true;
 
 Random r;
 PGraphics pg;
