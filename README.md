@@ -18,4 +18,4 @@ The simplest digger agent is the <b><i>AgentBasedDungeon_random</i></b>, which m
 
 A variation of the random digger agent which moves without changing direction as often is the <b><i>AgentBasedDungeon_corridor</i></b>. The only variable that can affect this algorithm is the <b>changeDirInc</b> which determines how often the digger will change direction and thus how long its corridors tend to be.
 
-Expanding on the corridor agent, the <b><i>AgentBasedDungeon_room</i></b> agent adds rooms; both the <b>changeDirInc</b> and the <b>addRoomInc</b> parameters can be tweaked to affect how often the digger changes direction or adds a room respectively.
+Expanding on the corridor agent, the <b><i>AgentBasedDungeon_room</i></b> agent adds rooms; both the <b>changeDirInc</b> and the <b>addRoomInc</b> parameters can be tweaked to affect how often the digger changes direction or adds a room respectively. The size of the rooms can be edited through the <b>minRoomSize</b> and <b>maxRoomSize</b> tuples, which randomize room width (first) and room height (second) independently.
