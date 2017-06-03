@@ -14,6 +14,7 @@ Finally, all algorithms in this repository can be run one step at a time, perfor
 
 Three digger agents are included in this repository. All agents are shown in red, and start at the middle of the dungeon. 
 
+<img width = 400 height = 400 src="/images/random.png"/>
 The simplest digger agent is the <b><i>AgentBasedDungeon_random</i></b>, which moves randomly from the center of the dungeon. Movement can be completely random or biased towards avoiding the opposite direction: this is controlled by the <b>directionMode</b> parameter. 
 
 A variation of the random digger agent which moves without changing direction as often is the <b><i>AgentBasedDungeon_corridor</i></b>. The only variable that can affect this algorithm is the <b>changeDirInc</b> which determines how often the digger will change direction and thus how long its corridors tend to be.
