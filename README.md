@@ -8,7 +8,7 @@ All the included .pde files can be run as-is. In order to open and compile the a
 
 All .pde files visualize a dungeon or cave system made up of impassable tiles (e.g. walls) in black and passable tiles in white. In order to customize the size of the dungeon, you can edit the <b>tiles</b> tuple (width and height in tiles, in that order). In order to decrease or increase the size of each tile (for instance, for larger or smaller screens and resolutions), you can edit the <b>zoominFactor</b>. Every dungeon has a border of impassable tiles around it that can not be changed by any generator: the width of this border can be changed via the <b>dungeon_edge</b> parameter.
 
-Finally, all algorithms in this repository can be run one step at a time, performing one step only when the user presses any key except <b>R</b>. Otherwise, the algorithms can run automatically, taking one generative step per frame update. To toggle between the two, change the boolean flag <b>drawStepWise</b> (default false).
+Finally, all algorithms in this repository can be run one step at a time, performing one step only when the user presses any key except <b>R</b> (pressing R resets all processes and clears the dungeon, starting generation from scratch). Otherwise, the algorithms can run automatically, taking one generative step per frame update. To toggle between the two, change the boolean flag <b>drawStepWise</b> (default false).
 
 # Digger agents
 
