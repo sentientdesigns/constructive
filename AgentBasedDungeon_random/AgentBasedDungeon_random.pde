@@ -6,7 +6,7 @@ static final int dungeon_edge = 5;
 static final int[] tiles = {50,50};
 static final int zoominFactor = 20;
 
-int directionMode = 1; 
+final int directionMode = 0; 
 // 0: all are possible
 // 1: not same dir
 // 2: not same dir or backwards
