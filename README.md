@@ -32,7 +32,7 @@ Cellular automata start from a random binary map and recolor each tile based on 
 
 <img width = 400 height = 400 src="/images/cellular.png"/>
 
-The cellular automata are found in <b><i>CellularAutomata_caves</i></b>. Apart from the general variables described above, the only variable that can be changed is <b>mooreNeighborhood</b> boolean flag, which if true uses the Moore neighborhood and if false uses the von Neumann neighborhood for determining how each tile changes. For the purposes of demonstrating how cellular automata work, it is recommended to set <b>drawStepWise</b> to true, and also to reset the map using the <b>R</b> key.
+The cellular automata are found in <b><i>CellularAutomata_caves</i></b>. Apart from the general variables described above, the only variable that can be changed is the <b>mooreNeighborhood</b> boolean flag, which if true uses the Moore neighborhood and if false uses the von Neumann neighborhood for determining how each tile changes. For the purposes of demonstrating how cellular automata work, it is recommended to set <b>drawStepWise</b> to true, and also to reset the map using the <b>R</b> key.
 
 # NOTE
 
