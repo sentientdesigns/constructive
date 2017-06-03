@@ -1,4 +1,4 @@
-# Algorithms for Constructive Generation Methods for Dungeons and Levels
+# Constructive Generation Methods for Dungeons and Levels
 
 This repository contains algorithms for digger agents and cellular automata which create dungeons and caves. The algorithms included are presented in detail in the Constructive Generation Methods for Dungeons and Levels chapter of the <A href="http://pcgbook.com/">PCG book</A>.
 
